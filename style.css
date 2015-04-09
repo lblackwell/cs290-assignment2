@@ -1,0 +1,51 @@
+thead {
+	font-weight: bold;
+}
+
+tbody th:first-of-type {
+	font-weight: normal;
+	font-style: italic;
+}
+
+tbody td:first-of-type {
+	color: red;
+}
+
+tbody td:nth-of-type(3) {
+	color: blue;
+}
+
+tbody tr:nth-of-type(2n+1) {
+	background-color: lightgreen;
+}
+
+tbody tr:nth-of-type(2n) {
+	background-color: lightblue;
+}
+
+tfoot th{
+	font-weight: normal;
+}
+
+dt:hover + dd {
+	background-color: purple;
+}
+
+div.outer-content {
+	background-color: pink;
+	margin-top: 20px;
+	width: 75%;
+	position: relative;
+	left: 0px;
+}
+
+div.inner-content {
+	background-color: blue;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+
+img {
+	float: left;
+}
